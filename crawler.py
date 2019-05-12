@@ -23,7 +23,7 @@ for sr in subreddits:
   time.sleep(15)
 
   if js is not None:
-    with open(f'{td}_{sr}.json', 'wb') as f:
+    with open(f'/home/gsvigruha/reddit/{td}_{sr}.json', 'wb') as f:
       f.write(js)
       success = success + 1
 
